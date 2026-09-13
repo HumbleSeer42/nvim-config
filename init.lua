@@ -9,3 +9,5 @@ vim.opt.smartindent = true
 vim.opt.termguicolors = true
 
 require("config.lazy")
+
+vim.cmd [[ colorscheme tokyonight-night ]]
