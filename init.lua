@@ -8,6 +8,8 @@ vim.opt.tabstop = 4
 vim.opt.smartindent = true
 vim.opt.termguicolors = true
 
+require("config")
 require("config.lazy")
 
 vim.cmd [[ colorscheme tokyonight-night ]]
+require("lualine").setup()
