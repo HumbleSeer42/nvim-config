@@ -30,4 +30,10 @@ return {
         "folke/which-key.nvim",
         event = "VeryLazy",
     },
+    {
+        "nvim-telescope/telescope.nvim", version = "*",
+        dependencies = {
+            "nvim-lua/plenary.nvim",
+        },
+    },
 }
