@@ -26,4 +26,8 @@ return {
         version = "*",
         dependencies = { "nvim-tree/nvim-web-devicons" },
     },
+    {
+        "folke/which-key.nvim",
+        event = "VeryLazy",
+    },
 }
