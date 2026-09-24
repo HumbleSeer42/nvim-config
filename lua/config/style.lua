@@ -4,3 +4,7 @@ require("config.lazy")
 vim.cmd.colorscheme("tokyonight-night")
 require('lualine').setup()
 require("bufferline").setup{}
+
+-- treesitter syntax highlighting
+require("nvim-treesitter").setup()
+require("nvim-treesitter").install { "java", "lua" }
