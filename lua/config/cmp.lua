@@ -18,3 +18,5 @@ cmp.setup({
         { name = "buffer" },
     })
 })
+
+require("lazydev").setup()

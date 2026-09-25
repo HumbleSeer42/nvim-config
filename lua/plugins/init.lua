@@ -62,5 +62,7 @@ return {
         'hrsh7th/nvim-cmp',
         'hrsh7th/cmp-vsnip',
         'hrsh7th/vim-vsnip',
-    }
+    },
+    "artur-shaik/jc.nvim",
+    "folke/lazydev.nvim",
 }
