@@ -65,4 +65,10 @@ return {
     },
     "artur-shaik/jc.nvim",
     "folke/lazydev.nvim",
+    {
+        "ibhagwan/fzf-lua",
+        dependencies = {
+            "nvim-tree/nvim-web-devicons",
+        },
+    },
 }
