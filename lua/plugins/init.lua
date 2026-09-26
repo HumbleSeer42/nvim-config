@@ -71,4 +71,12 @@ return {
             "nvim-tree/nvim-web-devicons",
         },
     },
+    {
+        "NeogitOrg/neogit",
+        lazy = true,
+        cmd = "Neogit",
+        keys = {
+            { "<leader>gg", "<cmd>Neogit<cr>", desc = "Show Neogit UI" }
+        }
+    },
 }
