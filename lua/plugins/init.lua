@@ -81,4 +81,5 @@ return {
     },
     "j-hui/fidget.nvim",
     { 'nvim-mini/mini.pairs', version = false },
+    "HumbleSeer42/bitflip.nvim",
 }
