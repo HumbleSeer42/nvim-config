@@ -5,3 +5,14 @@ require("neo-tree").setup({
 })
 
 require("mini.pairs").setup()
+
+require("cord").setup {
+    display = {
+        swap_icons = true,
+    },
+    text = {
+        editing = "Editing",
+        viewing = "Reading",
+        workspace = "",
+    }
+}
