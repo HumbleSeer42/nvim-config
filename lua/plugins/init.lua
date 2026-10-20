@@ -77,4 +77,5 @@ return {
     { 'nvim-mini/mini.pairs', version = false },
     "HumbleSeer42/bitflip.nvim",
     "vyfor/cord.nvim",
+    "lewis6991/gitsigns.nvim",
 }
