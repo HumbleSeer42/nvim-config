@@ -6,6 +6,8 @@ require("neo-tree").setup({
 
 require("mini.pairs").setup()
 
+require("fidget").setup({})
+
 require("cord").setup {
     display = {
         swap_icons = true,
