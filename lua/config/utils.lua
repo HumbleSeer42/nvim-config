@@ -13,8 +13,6 @@ require("cord").setup {
         swap_icons = true,
     },
     text = {
-        editing = "Editing",
-        viewing = "Reading",
         workspace = "",
     }
 }
