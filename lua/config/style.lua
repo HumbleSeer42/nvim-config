@@ -7,7 +7,11 @@ require('lualine').setup({
         theme = 'tokyonight'
     }
 })
-require("bufferline").setup{}
+require("bufferline").setup({
+    options = {
+        mode = 'tabs',
+    }
+})
 
 -- treesitter syntax highlighting
 require("nvim-treesitter").setup()
