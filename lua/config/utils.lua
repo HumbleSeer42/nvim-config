@@ -16,3 +16,5 @@ require("cord").setup {
         workspace = "",
     }
 }
+
+require("toggleterm").setup()

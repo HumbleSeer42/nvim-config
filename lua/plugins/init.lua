@@ -78,4 +78,9 @@ return {
     "HumbleSeer42/bitflip.nvim",
     "vyfor/cord.nvim",
     "lewis6991/gitsigns.nvim",
+    {
+        'akinsho/toggleterm.nvim',
+        version = "*",
+        config = true,
+    },
 }
