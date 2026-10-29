@@ -18,3 +18,5 @@ require("cord").setup {
 }
 
 require("toggleterm").setup()
+
+require("noice").setup({})
