@@ -11,4 +11,6 @@ vim.keymap.set('n', '<leader>ca', function ()
     vim.lsp.buf.code_action()
 end)
 
+vim.keymap.set('n', '<leader>gg', "<cmd>Neogit<cr>", { desc = "Show Neogit UI"})
+
 require("which-key").setup()
