@@ -87,5 +87,11 @@ return {
             "MunifTanjim/nui.nvim",
             "rcarriga/nvim-notify",
         }
-    }
+    },
+    {
+        'lanza/godbolt.nvim',
+        config = function()
+            require('godbolt').setup()
+        end,
+    },
 }
